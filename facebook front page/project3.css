@@ -1,0 +1,83 @@
+*{
+  background-image: url(color.jpg);
+}
+header{
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 5%;
+    font-size: medium;
+    color: #817a7a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+  display: block;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.icon img {
+    border-radius: 60%;
+}
+.form{
+  display: block;
+  text-align: center;
+}
+input[type=text],input[type=password]{
+  align-items: center;
+  width: 25%;
+  padding: 10px;
+  border-radius:10px;
+  border: 1px solid rgb(68, 66, 66);
+  color: #8f8787;
+  background: #302d2d;
+}
+.log {
+  display:inline-block;
+  width: 24%;
+  padding: 10px;
+  border-radius: 50px;
+  background: blue;
+}
+.log button{
+  color: white;
+  border-radius: 50px;
+  border:0px;
+  background: blue;
+}
+.log button:hover{
+  opacity: 0.8;
+}
+.form p{
+  color:#939599;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.login{
+  display: flex;
+}
+.fb button{
+  border: 1px solid;
+  color: rgb(64, 64, 228);
+  margin-top: 90px;
+  border-color: rgb(63, 63, 224);
+  background-color: #080808;
+  border-radius: 50px;
+  padding: 10px;
+  width:25%;
+}
+.fb button:hover{
+  opacity: 0.8;
+}
+.meta{
+  padding-top: 10px;
+}
+.meta {
+  display: inline-flex;
+  text-align: center;
+  margin-top: 10px;
+}
+.meta p{
+position: relative;
+top:-15px;
+left:5px;
+color:#939599 ;
+}
